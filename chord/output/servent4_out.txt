@@ -1,0 +1,35 @@
+17:45:54 - Starting servent [0|localhost|1600]
+17:45:54 - Pausing for 10000 ms
+17:45:55 - Sending message [0|1600|0||NEW_NODE|1200|48]
+17:45:57 - Got message [4|1300|13||WELCOME|1600|0]
+17:45:58 - Sending message [0|1600|1||UPDATE|1300|4]
+17:46:01 - Got message [0|1600|16|1300,1400,1100,1200|UPDATE|1600|0]
+17:46:01 - Dodat [4|localhost|1300]
+17:46:01 - Dodat [48|localhost|1200]
+17:46:01 - Uslo
+17:46:03 - Sending message [0|1600|3|FIRST|PING|1200|48]
+17:46:03 - Sending message [0|1600|2|FIRST|PING|1300|4]
+17:46:04 - Got message [48|1200|17|FIRST|PONG|1600|0]
+17:46:04 - Pausing for 4000 ms
+17:46:04 - Got message [4|1300|16|FIRST|PONG|1600|0]
+17:46:05 - Got message [48|1200|18||ASK_VIEW|1600|0]
+17:46:05 - No public files found.
+17:46:05 - You can only view public files from this node.
+17:46:05 - WAITING 4 SECONDS
+17:46:06 - Got message [48|1200|19||TOKEN|1600|0]
+17:46:06 - Sending message [0|1600|4|[]|SEND_FILES|1200|48]
+17:46:06 - Sending message [0|1600|5||TOKEN|1300|4]
+17:46:08 - Pausing for 7000 ms
+17:46:08 - Got message [4|1300|21|FIRST|PING|1600|0]
+17:46:08 - Dodat [4|localhost|1300]
+17:46:09 - Got message [48|1200|21||TOKEN|1600|0]
+17:46:09 - Sending message [0|1600|6|FIRST|PONG|1300|4]
+17:46:10 - Sending message [0|1600|7||TOKEN|1300|4]
+17:46:10 - Got message [48|1200|22|62:/Users/sarapetrovic/IdeaProjects/projekat-spetrovic4520rn/chord/test/servent0/private_file1.txt:true|PUT|1600|0]
+17:46:11 - Sending message [0|1600|8|62:/Users/sarapetrovic/IdeaProjects/projekat-spetrovic4520rn/chord/test/servent0/private_file1.txt:true|BACKUP|1300|4]
+17:46:11 - Got message [48|1200|26|FIRST|PING|1600|0]
+17:46:11 - Dodat [48|localhost|1200]
+17:46:12 - Sending message [0|1600|9|62:/Users/sarapetrovic/IdeaProjects/projekat-spetrovic4520rn/chord/test/servent0/private_file1.txt:true|BACKUP|1200|48]
+17:46:12 - Sending message [0|1600|10|FIRST|PONG|1200|48]
+17:46:15 - Stopping...
+17:46:15 - WAITING 10 SECONDS

@@ -1,0 +1,6 @@
+pause 50000
+init_token_mutex
+pause 1000
+add_file file1.txt private
+pause 12000
+stop

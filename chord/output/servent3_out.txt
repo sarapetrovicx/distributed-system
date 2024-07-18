@@ -1,0 +1,53 @@
+17:45:44 - Starting servent [24|localhost|1400]
+17:45:44 - Pausing for 20000 ms
+17:45:45 - Sending message [24|1400|0||NEW_NODE|1200|48]
+17:45:48 - Got message [28|1100|10||WELCOME|1400|24]
+17:45:50 - Sending message [24|1400|1||UPDATE|1100|28]
+17:45:53 - Got message [24|1400|7|1100,1200,1300|UPDATE|1400|24]
+17:45:53 - Dodat [28|localhost|1100]
+17:45:53 - Dodat [4|localhost|1300]
+17:45:53 - Uslo
+17:45:54 - Got message [4|1300|10|FIRST|PING|1400|24]
+17:45:54 - Dodat [4|localhost|1300]
+17:45:55 - Sending message [24|1400|3|FIRST|PING|1300|4]
+17:45:55 - Sending message [24|1400|2|FIRST|PING|1100|28]
+17:45:56 - Sending message [24|1400|4|FIRST|PONG|1300|4]
+17:45:56 - Got message [28|1100|16|FIRST|PONG|1400|24]
+17:45:56 - Got message [28|1100|15|FIRST|PING|1400|24]
+17:45:56 - Dodat [28|localhost|1100]
+17:45:56 - Got message [4|1300|11|FIRST|PONG|1400|24]
+17:45:57 - Sending message [24|1400|5|FIRST|PONG|1100|28]
+17:45:57 - WAITING 4 SECONDS
+17:45:58 - Got message [0|1600|15|1300|UPDATE|1400|24]
+17:45:58 - Dodat [28|localhost|1100]
+17:45:58 - Dodat [4|localhost|1300]
+17:45:59 - Sending message [0|1600|6|1300,1400|UPDATE|1100|28]
+17:46:04 - Pausing for 10000 ms
+17:46:07 - Got message [4|1300|17||TOKEN|1400|24]
+17:46:07 - WAITING 10 SECONDS
+17:46:07 - Uslo
+17:46:08 - Sending message [24|1400|7||TOKEN|1100|28]
+17:46:08 - Sending message [24|1400|9|FIRST|PING|1300|4]
+17:46:08 - Got message [4|1300|20|FIRST|PING|1400|24]
+17:46:08 - Dodat [4|localhost|1300]
+17:46:08 - Sending message [24|1400|8|FIRST|PING|1100|28]
+17:46:09 - Sending message [24|1400|10|FIRST|PONG|1300|4]
+17:46:09 - Got message [4|1300|22|FIRST|PONG|1400|24]
+17:46:10 - Got message [28|1100|23|FIRST|PONG|1400|24]
+17:46:10 - Got message [28|1100|26|FIRST|PING|1400|24]
+17:46:10 - Dodat [28|localhost|1100]
+17:46:11 - Sending message [24|1400|11|FIRST|PONG|1100|28]
+17:46:11 - WAITING 4 SECONDS
+17:46:11 - Got message [4|1300|24||TOKEN|1400|24]
+17:46:12 - Sending message [24|1400|12||TOKEN|1100|28]
+17:46:14 - Pausing for 10000 ms
+17:46:21 - WAITING 10 SECONDS
+17:46:21 - Uslo
+17:46:23 - Sending message [24|1400|14|FIRST|PING|1300|4]
+17:46:23 - Sending message [24|1400|13|FIRST|PING|1100|28]
+17:46:24 - Pausing for 14000 ms
+17:46:25 - WAITING 4 SECONDS
+17:46:35 - WAITING 10 SECONDS
+17:46:36 - Sending message [24|1400|15||UPDATE|1100|28]
+17:46:37 - Sending message [24|1400|16||UPDATE|1100|28]
+17:46:38 - Stopping...
